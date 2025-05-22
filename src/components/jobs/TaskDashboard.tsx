@@ -41,7 +41,7 @@ const TaskDashboard: React.FC<TaskDashboardProps> = ({
             category: data.category,
             services: data.category 
         }
-        setJobs([newJob, ...jobs]) // Add new job at the beginning of the list
+        setJobs([newJob, ...jobs])
         setOpenCreate(false)
     }
 

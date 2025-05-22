@@ -66,7 +66,8 @@ export default function JobsiteServicesView({ job, onBack }: Props) {
                 headerRight={
                     <SearchInput
                         value={search}
-                        onChange={setSearch}                placeholder="Search item"
+                        onChange={setSearch}               
+                         placeholder="Search item"
                         name={search}
                         sx={{ mb: 0 }}     
                     />

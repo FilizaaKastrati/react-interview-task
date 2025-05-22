@@ -42,7 +42,7 @@ export default function ContainerWithHeader({
                         justifyContent: 'space-between',
                         gap: 2,
                         px: 2,
-                        height: '56px', // Fixed height for header
+                        height: '56px', 
                         bgcolor: '#F8F8FA',
                         borderBottom: 'none'
                     }}
